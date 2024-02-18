@@ -523,6 +523,7 @@ footer {
 
 .contact_info {
     width: 100%;
+    height: auto;
     padding: 10vh;
     display: flex;
     flex-direction: row;
@@ -541,11 +542,17 @@ footer {
     color:white;
 }
 
+.map_area iframe{
+    width: 70vw;
+    margin: 5vh;
+}
+
 @media screen and (max-width: 768px) {
     .contact_info {
-        display: flex;
         flex-direction: column;
-        justify-content: center;
-        gap: 15vh
+        gap: 10vh
     }
+
+ 
 }
+
